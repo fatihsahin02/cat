@@ -20,7 +20,8 @@ def insert_newguest():
 #This is to setup the connection
 
 #First, setup a connection string. My server is running on this computer so localhost is OK
-connection_string = "mongodb://localhost"
+#connection_string = "mongodb://localhost"
+connection_string = mongodb://akiner02:cft6cft6@ds054128.mongolab.com:54128/desert
 #Next, let PyMongo know about the MongoDB connection we want to use.  PyMongo will manage the connection pool
 connection = pymongo.MongoClient(connection_string)
 #Now we want to set a context to the names database we created using the mongo interactive shell
